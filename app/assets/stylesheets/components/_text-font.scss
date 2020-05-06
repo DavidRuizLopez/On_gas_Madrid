@@ -1,0 +1,19 @@
+.conteiner-text {
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+h1 h2 {
+  font-family: 'Arvo', serif;
+}
+
+p li {
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+a {
+  color: #D94453;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
