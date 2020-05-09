@@ -7,13 +7,16 @@
   flex-grow: 0;
 }
 
+.navbar-lewagon .navbar-brand {
+  margin-left: 6vh;
+}
+
 .navbar-lewagon .navbar-brand img {
-    width: 100px;
+    width: 200px;
     margin: -11px;
 }
 
 .telef {
   background-color: #ffbfa8;
-  padding: 1vh;
   border-radius: 5px;
 }
