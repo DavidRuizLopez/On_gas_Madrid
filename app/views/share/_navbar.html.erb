@@ -1,9 +1,9 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+<div id="navbar" class="fixed-top navbar navbar-expand-sm navbar-light navbar-lewagon">
   <%= link_to root_path, class: "navbar-brand" do %>
     <%= image_tag "https://res.cloudinary.com/dvdrzlpz/image/upload/v1588954793/logo_tejado_con_llama_final_1_ea7ewf.jpg" %>
-    <h6>Tu instalador de confianza</h6>
   <% end %>
 
+  <h4 style="color: #0076BC"><strong>Tu instalador de confianza</strong></h4>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -13,14 +13,16 @@
     <ul class="navbar-nav mr-auto">
       <div class="d-flex align-items-center">
       <li class="nav-item mr-3">
-        <%= link_to contactos_path, class: "telef d-flex align-items-center" do %>
-          <i class="fab fa-whatsapp mx-1"></i><p class="mt-3">91 677 31 99 | 608 828 918</p>
+        <%= link_to contacts_path, class: "telef d-flex align-items-center" do %>
+          <p class="mt-3">91 677 31 99 |<i style="color: green" class="fab fa-whatsapp mx-1"></i> 608 828 918</p>
+          <a href="#">ongasmadrid@gmail.com</a>
         <% end %>
       </li>
       <li class="nav-item ml-3">
-        <%= link_to "Contáctanos", contactos_path, class: "nav-link" %>
+        <%= link_to "Contáctanos", contacts_path, class: "nav-link" %>
       </li>
       </div>
     </ul>
   </div>
 </div>
+
